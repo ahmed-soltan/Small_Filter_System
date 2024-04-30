@@ -1,0 +1,31 @@
+.cardContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(350px , 1fr));
+  width: 100%;
+  padding: 20px;
+  overflow-x: hidden;
+  row-gap: 10px;
+}
+.image{
+  max-width: 150px;
+  height: 150px;
+}
+.card{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-arounf;
+  flex-direction: column;
+}
+.card .bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.cardBody{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
